@@ -15,7 +15,7 @@ public class App
         Dev obj= context.getBean(Dev.class);
 
 //        Dev obj= new Dev();
-//        obj.build();
+        obj.build();
         System.out.println( "Hello World!" );
     }
 }
