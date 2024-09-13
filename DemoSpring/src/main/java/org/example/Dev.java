@@ -2,15 +2,18 @@ package org.example;
 
 public class Dev {
 //    private int age;
-    private Laptop laptop;
+//    private Laptop laptop;
+private Computer com;
 
-    public Laptop getLaptop() {
-        return laptop;
-    }
+//    public Laptop getLaptop() {
+//        return laptop;
+//    }
+//
+//    public void setLaptop(Laptop laptop) {
+//        this.laptop = laptop;
+//    }
 
-    public void setLaptop(Laptop laptop) {
-        this.laptop = laptop;
-    }
+
 
 //    public int getAge() {
 //        return age;
@@ -24,8 +27,17 @@ public class Dev {
 //        this.age = age;
 //    }
 
-    public Dev(Laptop laptop) {
-        this.laptop = laptop;
+//    public Dev(Laptop laptop) {
+//        this.laptop = laptop;
+//    }
+
+
+    public Dev(Computer com) {
+        this.com = com;
+    }
+
+    public Dev() {
+//        this.computer = computer;
     }
 
     public void build()
